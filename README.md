@@ -1,1 +1,2 @@
-# isujeremiah.github.io
+# Jeremiah Isu
+PhD student, University of Oklahoma
