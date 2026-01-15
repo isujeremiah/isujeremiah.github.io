@@ -1,4 +1,9 @@
 title: About Me
 description: PhD Student | Quantum enthusiast
 logo: docs/assets/My_headshot.jpg
+# Personal Information
+email: "mailto:jeremiah.isu@ou.edu.com"
+cv: "isujeremiah.github.io"
+
 theme: jekyll-theme-minimal
+
