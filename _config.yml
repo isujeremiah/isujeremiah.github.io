@@ -2,8 +2,11 @@ title: About Me
 description: PhD Student | Quantum enthusiast
 logo: docs/assets/My_headshot.jpg
 # Personal Information
-email: "mailto:jeremiah.isu@ou.edu.com"
-cv: "isujeremiah.github.io"
+links:
+  - name: "Email"
+    url: "mailto:yourname@example.com"
+  - name: "CV"
+    url: "https://yourwebsite.com/cv.pdf"
 
 theme: jekyll-theme-minimal
 
