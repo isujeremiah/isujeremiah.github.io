@@ -3,10 +3,9 @@ description: PhD Student | Quantum enthusiast
 logo: docs/assets/My_headshot.jpg
 # Personal Information
 links:
-  - name: "Email"
-    url: "mailto:isujeremiah@ou.edu"
-  - name: "CV"
-    url: "https://yourwebsite.com/cv.pdf"
+  - email: "yourname@example.com"
+cv: "https://yourwebsite.com/cv.pdf"
+
 
 theme: jekyll-theme-minimal
 
