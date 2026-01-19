@@ -7,7 +7,7 @@ I am a mathematics PhD student at the University of Oklahoma working under the s
 
 - 📧 [jeremiah.i.isu-1@ou.edu](mailto:jeremiah.i.isu-1@ou.edu)
 
-- 📄 [Download my CV](/docs/assets/Jeremiah_Isu_CV.pdf)
+- 📄 [My CV](/docs/assets/Jeremiah_Isu_CV.pdf)
 
 
 
