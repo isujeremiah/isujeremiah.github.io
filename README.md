@@ -5,9 +5,19 @@ I am a mathematics PhD student at the University of Oklahoma working under the s
 
 ## Find my email address and CV here:
 
-- 📧 [jeremiah.i.isu-1@ou.edu](mailto:jeremiah.i.isu-1@ou.edu)
+<div align="center" style="margin-top: 1em;">
+  <a href="mailto:jeremiah.i.isu-1@ou.edu" style="text-decoration: none;">
+    <button style="padding: 0.6em 1.2em; font-size: 1em; font-weight: 500; border-radius: 6px; border: none; background-color: #005A9C; color: white; cursor: pointer;">
+      📧 Email Me
+    </button>
+  </a>
 
-- 📄 [My CV](/docs/assets/Jeremiah_Isu_CV.pdf)
+  <a href="/docs/assets/Jeremiah_Isu_CV.pdf" style="text-decoration: none; margin-left: 1em;">
+    <button style="padding: 0.6em 1.2em; font-size: 1em; font-weight: 500; border-radius: 6px; border: none; background-color: #005A9C; color: white; cursor: pointer;">
+      📄 My CV
+    </button>
+  </a>
+</div>
 
 
 
