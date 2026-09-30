@@ -18,8 +18,8 @@ show_minimal: false             # remove all clutter
 # Menu                          # for available icons see https://fontawesome.com/v5/icons/
 
 navigation:                     # accepts {file, title, url, icon, sidebaricon}
-  - {file: "archive.html", title: Home, icon: Home}
-  - {file: "README.md", title: About Me, icon: About Me}
+  - {file: "archive.html", title: "Home", icon: Home}
+  - {file: "README.md", title: "About Me", icon: About Me}
 
 external:                       # accepts {file, title, url, icon, sidebaricon}
   - {title: Mail, icon: envelope, url: "isujeremiah@ou.edu"}
