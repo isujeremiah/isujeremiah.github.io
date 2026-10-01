@@ -21,7 +21,7 @@ navigation:                     # accepts {file, title, url, icon, sidebaricon}
 
 external:                       # accepts {file, title, url, icon, sidebaricon}
   - {title: Mail, icon: envelope, url: "mailto:isujeremiah@ou.edu"}
-  - {title: Github, icon: github, url: "https://isujeremiah.github.io"}
+  - {title: Github, icon: github, url: "https://github.com/isujeremiah?tab=repositories"}
   - {title: Linkedin, icon: linkedin, url: "https://linkedin.com"}
 
 
