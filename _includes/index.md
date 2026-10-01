@@ -5,9 +5,7 @@ title: "Jeremiah Isu"
 
 # About Me
 
-I am a PhD student in Mathematics at the University of Oklahoma, working in quantum information theory, quantum tomography, and phase retrieval.
-
-My research focuses on quantum channels, superoperators, and the mathematical foundations of quantum computing.
+I am a doctoral student in Mathematics at the University of Oklahoma, working in the theory of quantum information. In particular, I work on the mathematical formulation of phase retrieval of quantum states using quantum measurements and quantum channels. I am also interested in quantum computing and its applications.
 
 # Curriculum Vitae
 
