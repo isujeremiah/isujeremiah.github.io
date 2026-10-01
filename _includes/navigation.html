@@ -1,0 +1,6 @@
+<a class="sidebar-nav-item" href="{% if item.url %}{{ item.url }}{% else %}{{ item.file | relative_url }}{% endif %}">
+  {% if item.icon %}
+    <i class="fas fa-{{ item.icon }}"></i>
+  {% endif %}
+  {{ item.title }}
+</a>
