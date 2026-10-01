@@ -17,7 +17,6 @@ show_minimal: false             # remove all clutter
 navigation:                     # accepts {file, title, url, icon, sidebaricon}
   - {title: "Jeremiah Isu", icon: user}
   - {file: "archive.html", title: "Home", icon: home}
-  - {file: "README.md", title: "About Me", icon: "address-card"}
 
 
 external:                       # accepts {file, title, url, icon, sidebaricon}
