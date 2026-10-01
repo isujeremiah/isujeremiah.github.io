@@ -1,23 +1,19 @@
 <div class="sidebar">
 
-  <!-- Your name -->
   <h2 class="sidebar-title">{{ site.title }}</h2>
 
-  <!-- Navigation items (CV, Home, etc.) -->
   <nav class="sidebar-nav">
     {% for item in site.navigation %}
       {% include navigation.html item=item %}
     {% endfor %}
   </nav>
 
-  <!-- External links (Mail, Github, Linkedin) -->
   <nav class="sidebar-nav">
     {% for item in site.external %}
       {% include navigation.html item=item %}
     {% endfor %}
   </nav>
 
-  <!-- Description (University of Oklahoma) -->
   <p class="sidebar-description">{{ site.description }}</p>
 
 </div>
