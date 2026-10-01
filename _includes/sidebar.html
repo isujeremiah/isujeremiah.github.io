@@ -1,21 +1,23 @@
-<link rel="stylesheet" href="{{ "/assets/css/sidebar.css" | relative_url }}" media="screen and (min-width: 58em)">
-<h2 class="sidebar-title">{{ site.title }}</h2>
+<div class="sidebar">
 
-<aside style="display: none">
-  <nav>
-  {% assign keys = 'navigation,external,footer' | split: ',' %}
-  {% for key in keys %}
-  {%- for item in site[key] -%}
-    {%- assign node = site.pages | where: "name", item.file | first -%}
-    {%- assign url = item.url | default: node.url -%}
-    {%- assign title = item.title | default: node.title -%}
-    {%- assign icon = item.icon | default: item.sidebaricon -%}
-    <a href="{{ url | relative_url }}" class="{% if url == page.url %}selected{% endif %}">
-      <svg aria-hidden="true" width="1em" height="1em"><use xlink:href="{{ "/assets/fontawesome/icons.svg" | relative_url }}#{{ icon }}"></use></svg>
-      <span>{{ title }}</span>
-    </a>
-  {%- endfor -%}
-  {%- endfor -%}
+  <!-- Your name -->
+  <h2 class="sidebar-title">{{ site.title }}</h2>
+
+  <!-- Navigation items (CV, Home, etc.) -->
+  <nav class="sidebar-nav">
+    {% for item in site.navigation %}
+      {% include navigation.html item=item %}
+    {% endfor %}
   </nav>
-  <footer>{{ site.description }}</footer>
-</aside>
+
+  <!-- External links (Mail, Github, Linkedin) -->
+  <nav class="sidebar-nav">
+    {% for item in site.external %}
+      {% include navigation.html item=item %}
+    {% endfor %}
+  </nav>
+
+  <!-- Description (University of Oklahoma) -->
+  <p class="sidebar-description">{{ site.description }}</p>
+
+</div>
