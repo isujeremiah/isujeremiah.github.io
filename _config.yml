@@ -7,27 +7,20 @@ excerpt_separator: "\n\n\n"
 date_format: "%B %d, %Y"
 
 # Layout
-show_excerpts: true             # show article excerpts instead of archive list on the home page
-show_frame: false                # display a grey frame on large screens
-show_sidebar: true             # show a sidebar instead of the usual header
-show_minimal: false             # remove all clutter
+show_excerpts: true
+show_frame: false
+show_sidebar: true
+show_minimal: false
 
-# Menu                          # for available icons see https://fontawesome.com/v5/icons/
-
-navigation:                     # accepts {file, title, url, icon, sidebaricon}
+# Menu
+navigation:
   - {file: "archive.html", title: "Home", icon: home}
   - {url: "assets/Jeremiah_Isu_CV.pdf", title: "CV", icon: user}
 
-
-external:                       # accepts {file, title, url, icon, sidebaricon}
+external:
   - {title: Mail, icon: envelope, url: "mailto:isujeremiah@ou.edu"}
   - {title: Github, icon: github, url: "https://github.com/isujeremiah?tab=repositories"}
   - {title: Linkedin, icon: linkedin, url: "https://linkedin.com"}
 
-
-comments:
-#  disqus_shortname: ""         # see https://disqus.com
-#  isso_domain: ""              # see https://isso-comments.de
-
 plugins:
- - jekyll-feed
+  - jekyll-feed
