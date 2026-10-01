@@ -15,7 +15,7 @@ show_minimal: false             # remove all clutter
 # Menu                          # for available icons see https://fontawesome.com/v5/icons/
 
 navigation:                     # accepts {file, title, url, icon, sidebaricon}
-  - {title: "Jeremiah Isu", icon: user}
+  - {file: "CV", icon: user}
   - {file: "archive.html", title: "Home", icon: home}
 
 
