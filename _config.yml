@@ -15,8 +15,8 @@ show_minimal: true             # remove all clutter
 # Menu                          # for available icons see https://fontawesome.com/v5/icons/
 
 navigation:                     # accepts {file, title, url, icon, sidebaricon}
-  - {title: "CV", icon: user, url: "assets/Jeremiah_Isu_CV.pdf"}
   - {file: "archive.html", title: "Home", icon: home}
+  - {url: "assets/Jeremiah_Isu_CV.pdf", title: "CV", icon: user}
 
 
 external:                       # accepts {file, title, url, icon, sidebaricon}
