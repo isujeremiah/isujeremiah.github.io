@@ -593,8 +593,6 @@ button {
   font-size: 11px;
 }
 
-.paper-upload-button,
-.paper-file-link,
 .paper-pdf-link {
   display: inline-flex;
   min-height: 38px;
@@ -605,19 +603,14 @@ button {
   padding: 0 12px;
   border: 1px solid rgb(255 255 255 / 28%);
   color: #f9f8f3;
-  cursor: pointer;
   font-size: 11px;
   transition: background 160ms ease;
 }
 
-.paper-upload-button:hover,
-.paper-file-link:hover,
 .paper-pdf-link:hover {
   background: rgb(255 255 255 / 9%);
 }
 
-.paper-upload-button svg,
-.paper-file-link svg,
 .paper-pdf-link svg {
   width: 17px;
   height: 17px;
@@ -626,17 +619,6 @@ button {
   stroke-linecap: round;
   stroke-linejoin: round;
   stroke-width: 1.5;
-}
-
-.paper-file-link[hidden] {
-  display: none;
-}
-
-.paper-file-link span:nth-child(2) {
-  max-width: 190px;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
 }
 
 .research-horizon {
@@ -1200,11 +1182,6 @@ button {
     grid-template-columns: 1fr 15px;
     gap: 14px;
     padding-top: 25px;
-  }
-
-  .paper-upload {
-    align-items: flex-start;
-    flex-direction: column;
   }
 
   .research-horizon ul {
