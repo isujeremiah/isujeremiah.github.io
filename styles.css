@@ -792,7 +792,7 @@ button {
 
 .info-number {
   color: #81877e;
-  font-size: 8px;
+  font-size: 10px;
 }
 
 .info-card h3 {
@@ -811,7 +811,7 @@ button {
 
 .award-list {
   display: grid;
-  gap: 15px;
+  gap: 16px;
   margin: 5px 0 0;
   padding: 0;
   list-style: none;
@@ -823,15 +823,15 @@ button {
 
 .award-list li {
   display: grid;
-  gap: 4px;
+  gap: 5px;
   color: #555d54;
-  font-size: 12px;
-  line-height: 1.7;
+  font-size: 14px;
+  line-height: 1.65;
 }
 
 .award-list time {
   color: var(--green);
-  font-size: 11px;
+  font-size: 12px;
 }
 
 .info-card-footer {
